@@ -11,6 +11,18 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<style>
+		    #main article.active {
+		      align-items: flex-start !important;
+		      justify-content: flex-start !important;
+		      overflow-y: auto !important;
+		      padding-top: 4rem !important;
+		      transform: none !important;
+		    }
+		    #main article {
+		      transition: opacity 0.5s ease, transform 0.5s ease;
+		    }
+		</style>
 	</head>
 	<body class="is-preload">
 		<!-- Wrapper -->
@@ -380,6 +392,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 
 	</body>
 </html>
+
 
 
 
